@@ -83,3 +83,40 @@ body {
 .project .title {
     font-size: 1.5rem;
 }
+
+.pic-card {
+    width: 25vh;
+    border-radius: 5px;
+    height: 25vh;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+}
+  
+.pic-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.pic-card:hover .pic-inner {
+    transform: rotateY(180deg);
+}
+
+.pic-front, .pic-back {
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    backface-visibility: hidden;
+}
+
+.pic-back {
+    background-color: #605F5E;
+    transform: rotateY(180deg);
+}
