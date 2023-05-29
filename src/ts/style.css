@@ -55,3 +55,31 @@ body {
         opacity: 0;
     }
 }
+
+
+.projects {
+    margin: 50px;
+    border: 1px solid #CCDDD3;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 15px;
+    border: 1px solid #CCDDD3;
+    border-radius: 5px;
+    background-color: #605F5E;
+    height: 30vh;
+}
+
+.project .title {
+    font-size: 1.5rem;
+}
