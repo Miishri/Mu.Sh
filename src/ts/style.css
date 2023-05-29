@@ -1,4 +1,57 @@
-body {
-    background-color: #605F5E;
+a {
+    text-decoration: none;
+    color: #CCDDD3;
 }
 
+body {
+    background-color: #605F5E;
+    color: #CCDDD3;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 2.5px;
+    padding: 8px;
+    margin: 5px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.contact img {
+    width: 5vh;
+    height: 5vh;
+}
+
+.logo {
+    margin: 20px;
+    display: flex;
+    gap: 8px;
+    font-size: 3rem;
+}
+
+.logo img {
+    width: 24%;
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
