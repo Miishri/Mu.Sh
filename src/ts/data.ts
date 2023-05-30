@@ -1,14 +1,14 @@
 import { Project } from "./project";
-export { arrayValue }
+import about from "../html/about.html";
 
 let arrayValue: Project[] = []; // array for project objects
 
-const projectTest: Project = new Project
+const etchsketch: Project = new Project
 (
-    "Test_1", 
-    "Hello i am test 1 ", 
-    "https://picsum.photos/200/300", 
-    "https://www.google.com/"
+    "Etch-A-Sketch", 
+    "A simple Etch-A-Sketch game made with HTML, CSS and JavaScript",
+    "https://i.ibb.co/sJBsmxP/etchsketch.png", 
+    "about.html"
 );
 
 const projectTest2: Project = new Project
@@ -19,4 +19,7 @@ const projectTest2: Project = new Project
     "https://www.google.com/"
 );
 
-arrayValue.push(projectTest, projectTest2);
+arrayValue.push(etchsketch, projectTest2);
+console.log(arrayValue);
+
+export { arrayValue };
