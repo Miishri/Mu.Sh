@@ -10,7 +10,6 @@ const etchsketch: Project = new Project
     ""
 );
 
-arrayValue.push(etchsketch);
-console.log(arrayValue);
+//arrayValue.push(etchsketch);
 
 export { arrayValue };
