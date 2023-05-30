@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
 a {
     text-decoration: none;
     color: #CCDDD3;
@@ -6,6 +9,7 @@ a {
 body {
     background-color: #605F5E;
     color: #CCDDD3;
+    font-family: 'Open Sans', sans-serif;
 }
 .menu {
     display: flex;
@@ -144,4 +148,9 @@ body {
 .title {
     font-weight: 1000;
     opacity: 0.9;
+}
+
+.about {
+    font-size: 3rem;
+    margin: 20px;
 }

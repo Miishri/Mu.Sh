@@ -1,6 +1,6 @@
-import './style.css'
-import { Project } from './project'
-import { arrayValue } from './data'
+import '../css/style.css'
+import { Project } from '../ts/project'
+import { arrayValue } from '../ts/data'
 
 const projects: HTMLDivElement = <HTMLDivElement>document.querySelector('.projects');
 

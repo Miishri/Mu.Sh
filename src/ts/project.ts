@@ -1,4 +1,4 @@
-import './style.css'
+import '../css/style.css'
 
 export class Project {
     public title: string;
