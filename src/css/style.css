@@ -66,8 +66,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 20px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .project {
@@ -79,6 +78,7 @@ body {
     padding-bottom: 15px;
     border-radius: 10px;
     height: 30vh;
+    width: fit-content;
 }
 
 .project:hover {

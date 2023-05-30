@@ -1,5 +1,4 @@
 import { Project } from "./project";
-import about from "../html/about.html";
 
 let arrayValue: Project[] = []; // array for project objects
 
@@ -8,7 +7,7 @@ const etchsketch: Project = new Project
     "Etch-A-Sketch", 
     "A simple Etch-A-Sketch game made with HTML, CSS and JavaScript",
     "https://i.ibb.co/sJBsmxP/etchsketch.png", 
-    "about.html"
+    ""
 );
 
 const projectTest2: Project = new Project

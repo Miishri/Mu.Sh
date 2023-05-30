@@ -32,11 +32,11 @@ function createProject(projectObject: Project) {
     pic_image.src = projectObject.image;
     pic_front.append(pic_image);
 
-    const pic_back = document.createElement('div') as HTMLDivElement;
+    const pic_back: HTMLDivElement = <HTMLDivElement>document.createElement('div');
     pic_back.classList.add('pic-back');
     pic_inner.append(pic_back);
 
-    const pic_description = document.createElement('div') as HTMLDivElement;
+    const pic_description: HTMLDivElement = <HTMLDivElement>document.createElement('div');
     pic_description.classList.add('desc');
     pic_description.textContent = projectObject.description;
     pic_back.append(pic_description);
