@@ -40,11 +40,16 @@ body {
     display: flex;
     gap: 8px;
     font-size: 3rem;
+    font-weight: 600;
 }
 
 .logo img {
     width: 24%;
     animation: blink 1s infinite;
+}
+
+.logo img:hover {
+    animation: none;
 }
 
 

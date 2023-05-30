@@ -10,15 +10,7 @@ const etchsketch: Project = new Project
     ""
 );
 
-const projectTest2: Project = new Project
-(
-    "Test_2", 
-    "Hey i am test 2", 
-    "https://picsum.photos/200/300", 
-    "https://www.google.com/"
-);
-
-arrayValue.push(etchsketch, projectTest2);
+arrayValue.push(etchsketch);
 console.log(arrayValue);
 
 export { arrayValue };
