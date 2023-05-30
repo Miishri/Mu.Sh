@@ -132,7 +132,7 @@ body {
 }
 
 .image {
-    height: 169px;
+    height: 25vh;
     object-fit: contain;
     border-radius: 5px;
 }

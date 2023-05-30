@@ -19,4 +19,4 @@ const projectTest2: Project = new Project
     "https://www.google.com/"
 );
 
-arrayValue.push(projectTest, projectTest2)
+arrayValue.push(projectTest, projectTest2);
