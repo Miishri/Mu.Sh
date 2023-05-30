@@ -38,17 +38,30 @@ body {
 .logo {
     margin: 20px;
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.icon {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
     gap: 8px;
     font-size: 3rem;
     font-weight: 600;
 }
 
-.logo img {
-    width: 24%;
+#about {
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.icon img {
+    width: 28%;
     animation: blink 1s infinite;
 }
 
-.logo img:hover {
+.icon img:hover {
     animation: none;
 }
 
@@ -68,9 +81,10 @@ body {
 
 .projects {
     margin: 50px;
+    margin-left: 5%;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(25vh, 1fr));    
+    gap: 20px;
     padding: 5px;
 }
 
