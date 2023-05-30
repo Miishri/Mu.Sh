@@ -62,7 +62,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
 }
 
@@ -73,25 +73,23 @@ body {
     align-items: center;
     padding: 10px;
     padding-bottom: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #605F5E;
+    border-radius: 10px;
     height: 30vh;
 }
 
 .project:hover {
-    animation: 1s ease smoothShadow;
+    animation: infinite smoothShadow 2s;
 }
 
 @keyframes smoothShadow {
     0% {
-        box-shadow: 0px 0px 6px black;
+        box-shadow: 0px 0px 2px gray;
     }
     50% {
-        box-shadow: 0px 0px 4px black;
+        box-shadow: 0px 0px 8px grey;
     }
     100% {
-        box-shadow: 0px 0px 2px black;
+        box-shadow: 0px 0px 2px grey;
     }    
 }
 
@@ -125,11 +123,25 @@ body {
     align-items: flex-start;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100;
     backface-visibility: hidden;
 }
 
 .pic-back {
-    background-color: #605F5E;
     transform: rotateY(180deg);
+}
+
+.image {
+    height: 169px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.desc {
+    padding: 5px;
+}
+
+.title {
+    font-weight: 1000;
+    opacity: 0.9;
 }
